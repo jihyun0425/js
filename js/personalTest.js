@@ -154,6 +154,7 @@ class PersonalTest {
     createPersonalResult() {
         const resultType = this.calcResult();
         const result = this.resultInfors[resultType];
+        result.type = resultType;
         return result;
     }
 
